@@ -1,2 +1,2 @@
 # UD-Demo-GeoDataDays-MultiNavigation-Chaufferie-Docker
-Dockerized version of UD-Demo-GeoDataDays-MultiNavigation-Chaufferie
+Fully dockerized version of UD-Demo-GeoDataDays-MultiNavigation-Chaufferie
