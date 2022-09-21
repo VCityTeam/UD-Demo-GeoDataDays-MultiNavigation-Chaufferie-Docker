@@ -31,5 +31,6 @@ WORKDIR /UD-Demo-GeoDataDays-MultiNavigation-Chaufferie
 RUN npm install
 RUN npm run build
 
+WORKDIR /
 EXPOSE 80
-CMD [ "node", "./index.js", "/UD-Demo-GeoDataDays-MultiNavigation-Chaufferie", "80" ]
+CMD [ "node", "/UD-SimpleServer/index.js", "/UD-Demo-GeoDataDays-MultiNavigation-Chaufferie", "80" ]
