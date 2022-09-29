@@ -25,9 +25,11 @@ WORKDIR /UD-SimpleServer
 RUN npm install
 
 ######### Install UD-Demo-GeoDataDays-MultiNavigation-Chaufferie-Docker
+ARG checkoutName=master
 WORKDIR /
-RUN git clone --branch hot-fix https://github.com/VCityTeam/UD-Demo-GeoDataDays-MultiNavigation-Chaufferie.git
+RUN git clone https://github.com/VCityTeam/UD-Demo-GeoDataDays-MultiNavigation-Chaufferie.git
 WORKDIR /UD-Demo-GeoDataDays-MultiNavigation-Chaufferie
+RUN git checkout $checkoutName
 RUN npm install
 RUN npm run build
 
