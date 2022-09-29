@@ -32,6 +32,7 @@ WORKDIR /UD-Demo-GeoDataDays-MultiNavigation-Chaufferie
 RUN git checkout $checkoutName
 RUN npm install
 RUN npm run build
+ADD config.json /UD-Demo-GeoDataDays-MultiNavigation-Chaufferie/assets/config
 
 WORKDIR /
 EXPOSE 80
