@@ -27,6 +27,8 @@ services:
       - "${STRABON_PORT}:8080"
   udviz:
     build:
+      args:
+        - checkoutName=hot-fix #branch or sha of commit
       context: ./udviz-context
     ports:
       - ${UD_VIZ_PORT}:80
