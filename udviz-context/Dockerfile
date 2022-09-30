@@ -30,6 +30,7 @@ WORKDIR /
 RUN git clone https://github.com/VCityTeam/UD-Demo-GeoDataDays-MultiNavigation-Chaufferie.git
 WORKDIR /UD-Demo-GeoDataDays-MultiNavigation-Chaufferie
 RUN git checkout $checkoutName
+ADD bootstrap.js /UD-Demo-GeoDataDays-MultiNavigation-Chaufferie/src/
 RUN npm install
 RUN npm run build
 ADD config.json /UD-Demo-GeoDataDays-MultiNavigation-Chaufferie/assets/config
