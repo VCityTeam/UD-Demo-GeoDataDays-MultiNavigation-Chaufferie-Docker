@@ -108,7 +108,7 @@
   "temporalModule": {
     "view": "SLIDERWINDOW",
     "minTime": 2009,
-    "maxTime": 2012,
+    "maxTime": 2018,
     "currentTime": 2012,
     "timeStep": 1
   },
