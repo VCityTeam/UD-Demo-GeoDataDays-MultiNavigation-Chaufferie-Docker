@@ -7,8 +7,8 @@ This demo requires the Docker Engine. Installation instructions can be found [he
 
 Once Docker is installed, clone this repository:
 ```
-git clone https://github.com/VCityTeam/UD-Demo-GeoDataDays-MultiNavigation-Chaufferie.git
-cd UD-Demo-GeoDataDays-MultiNavigation-Chaufferie
+git clone https://github.com/VCityTeam/UD-Demo-GeoDataDays-MultiNavigation-Chaufferie-Docker.git
+cd UD-Demo-GeoDataDays-MultiNavigation-Chaufferie-Docker
 ```
 
 To configure the databases, edit `./.env` file to set appropriate passwords and ports for each service. For example:
